@@ -11,6 +11,13 @@ config.sh to make cross-compilers to other architectures, and even copy
 config.sh to another directory then run `build.sh` from there to avoid polluting
 the source dir.
 
+About this fork
+===============
+
+This fork of musl-cross is here to help the `intelligent-agent` team build a proper `or1k` cross-build toolchain for the integration of Klipper on the Recore board, which uses the AR100 for PID-loop controls.
+
+Anything beyond the integration of `or1k` with a host `aarch64` architecture will be referred upstream.
+
 Project Scope
 =============
 Supported are GCC 4.0.3 until 5.3.0.
