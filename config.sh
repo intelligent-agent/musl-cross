@@ -32,3 +32,4 @@ GCC_STAGE1_NOOPT=1
 
 # uncomment if you want docs and other unneeded stuff removed
 #REMOVE_JUNK=yes
+GCC_BUILTIN_PREREQS=yes
